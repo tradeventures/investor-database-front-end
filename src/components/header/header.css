@@ -1,0 +1,77 @@
+.header-bg{
+    background-color: #22cd5a;
+    width: 100%;
+}
+.wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.btn-add{
+    background-color: #22cd5a;
+    border: white;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-add:hover{
+    background-color: #ffffff;
+    color: #22cd5a;
+    transition: 0.3s;
+}
+
+.display{
+    position: absolute;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: #22cd5a solid 1px;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.no-display{
+    display: none;
+}
+
+.model-content{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    gap: 20px;
+}
+input{
+    padding: 10px 15px;
+    margin: 5px;
+    border: #22cd5a 1px solid;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.model-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-button{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-button > button{
+    background-color: #22cd5a;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}

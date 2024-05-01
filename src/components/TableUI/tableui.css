@@ -1,0 +1,18 @@
+.table-container{
+    width: 100vw;
+    margin: 30px auto;
+    overflow: hidden !important;
+    overflow-x: scroll !important;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+}
+
+tr>td{
+    width: 300px;
+}
+tr>th{
+    width: 300px;
+}
